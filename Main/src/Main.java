@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        FileHandling file = new FileHandling();
-        file.FileReader();
+        Registration register = new Registration();
+        Meeting meeting = new Meeting();
+        register.FileReader();
+        meeting.FindNewFriend(register.guests);
+
     }
 }
