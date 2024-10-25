@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Conference:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Conference_jar</output-path>
+    <root id="archive" name="Conference.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
